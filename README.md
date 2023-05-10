@@ -10,4 +10,11 @@ cleanUp.sql drops the database that was created previously and also drops the us
 # loadCsvData.sql
 loadCsvData.sql creates the table named matches and copies the data from csv file into the created table. File stored in /tmp folder because server can access the files that are in /tmp folder.
 
+# ipl_project.sql
+ipl_project.sql contains four queries that reads data from two csv files named matches.csv and deliveries.csv.
+1)First query fetches number of matches played per year of all the years in IPL.
+2)Second query fetches number of matches won of all teams over all the years of IPL.
+3)Third query fetches extra runs conceded per team for the year 2016.
+4)Fourth query fetches the top economical bowlers for the year 2015.
+
 
